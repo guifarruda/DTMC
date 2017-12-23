@@ -16,7 +16,7 @@ Alternativelly, see https://arxiv.org/abs/1609.00682.
   1. igraph (http://igraph.org/c/)
   2. gls (https://www.gnu.org/software/gsl/)
 
-## ## Use:
+## Use:
    dtmc network.edgelist \lambda \alpha \delta_1 \delta_2 \gamma \eta \beta Steps [cp/rp] [markov/montecarlo/both] 
    dtmc network.edgelist \lambda \alpha \delta_1 \delta_2 \gamma \eta \beta Steps [P_0] [cp/rp] [markov/montecarlo/both] 
      markov: runs the numerical simularions solving the dynamical equations iterativelly
