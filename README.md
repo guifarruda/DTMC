@@ -17,8 +17,8 @@ Alternativelly, see https://arxiv.org/abs/1609.00682.
   2. gls (https://www.gnu.org/software/gsl/)
 
 ## Use:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dtmc network.edgelist \lambda \alpha \delta_1 \delta_2 \gamma \eta \beta Steps [cp/rp] [markov/montecarlo/both] 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dtmc network.edgelist \lambda \alpha \delta_1 \delta_2 \gamma \eta \beta Steps [P_0] [cp/rp] [markov/montecarlo/both] 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dtmc network.edgelist \lambda \alpha \delta_1 \delta_2 \gamma \eta \beta Steps [cp/rp] [markov/montecarlo/both]  <br/>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dtmc network.edgelist \lambda \alpha \delta_1 \delta_2 \gamma \eta \beta Steps [P_0] [cp/rp] [markov/montecarlo/both]  <br/>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;markov: runs the numerical simularions solving the dynamical equations iterativelly <br/>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;montecarlo: runs the Monte Carlo simularions <br/>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;both: runs the markov and montecarlo options <br/>
