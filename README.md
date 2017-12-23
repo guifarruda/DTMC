@@ -17,17 +17,17 @@ Alternativelly, see https://arxiv.org/abs/1609.00682.
   2. gls (https://www.gnu.org/software/gsl/)
 
 ## Use:
-   dtmc network.edgelist \lambda \alpha \delta_1 \delta_2 \gamma \eta \beta Steps [cp/rp] [markov/montecarlo/both] 
-   dtmc network.edgelist \lambda \alpha \delta_1 \delta_2 \gamma \eta \beta Steps [P_0] [cp/rp] [markov/montecarlo/both] 
-     markov: runs the numerical simularions solving the dynamical equations iterativelly
-     montecarlo: runs the Monte Carlo simularions
-     both: runs the markov and montecarlo options
-     cp: contact processes
-     rp: reactive processes
-     \lambda, \alpha, \delta_1, \delta_2, \gamma, \eta, \beta: are real parameters
-     Steps: number of discrete time steps (integer)
-     P_0: File with the intial nodal probability (optional parameter)
-     network.edgelist: edgelist of the network under analysis
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dtmc network.edgelist \lambda \alpha \delta_1 \delta_2 \gamma \eta \beta Steps [cp/rp] [markov/montecarlo/both] 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dtmc network.edgelist \lambda \alpha \delta_1 \delta_2 \gamma \eta \beta Steps [P_0] [cp/rp] [markov/montecarlo/both] 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;markov: runs the numerical simularions solving the dynamical equations iterativelly <br/>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;montecarlo: runs the Monte Carlo simularions <br/>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;both: runs the markov and montecarlo options <br/>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cp: contact processes <br/>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rp: reactive processes <br/>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\lambda, \alpha, \delta_1, \delta_2, \gamma, \eta, \beta: are real parameters <br/>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Steps: number of discrete time steps (integer) <br/>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P_0: File with the intial nodal probability (optional parameter) <br/>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;network.edgelist: edgelist of the network under analysis <br/>
 
 ## Examples:
   1. Run the compile_run_examples.sh to run the 3 examples on real networks. 
