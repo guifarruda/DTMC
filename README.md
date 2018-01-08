@@ -16,6 +16,7 @@ Alternativelly, see https://arxiv.org/abs/1609.00682.
   1. igraph (http://igraph.org/c/)
   2. gls (https://www.gnu.org/software/gsl/)
   3. OpenMP (http://www.openmp.org/)
+  4. Cmake (https://cmake.org/)
 
 ## Use:
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dtmc network.edgelist \lambda \alpha \delta_1 \delta_2 \gamma \eta \beta Steps [cp/rp] [markov/montecarlo/both]  <br/>
